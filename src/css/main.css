@@ -1,0 +1,142 @@
+.full_box {
+    background-color: #eeeeee;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.portfolio_screen {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 95vw;
+    height: 95vh;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.top_button_section {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.top_button_box {
+    display: flex;
+    width: 10%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top_button_box>div:nth-child(1) {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.top_button_box>div:nth-child(2) {
+    width: 40px;
+    height: 40px;
+    background-color: #ffbd16;
+    border-radius: 50%;
+}
+
+.top_button_box>div:nth-child(3) {
+    width: 40px;
+    height: 40px;
+    background-color: #45b43b;
+    border-radius: 50%;
+}
+
+.top_portfolio_text_box {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.top_portfolio_text_box>div {
+    width: 25%;
+    height: 70%;
+    background-color: #eeeeee;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.top_portfolio_text_box>div>div:nth-child(1) {
+    width: 15%;
+    height: 70%;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.wallpaper_screen {
+    width: 100%;
+    height: 90%;
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Notification_window {
+    width: 70%;
+    height: 60%;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Notification_window>div h2 {
+    font-size: 2.5rem;
+    color: #222222;
+    margin-bottom: 0.3rem;
+}
+
+.Notification_window>div h1 {
+    font-size: 3rem;
+    color: #222222;
+    margin-bottom: 0.3rem;
+}
+
+
+.Notification_window>div h1 span {
+    color: #2657af;
+}
+
+
+
+.Notification_window>div h5 {
+    font-size: 1.5rem;
+    color: #777777;
+}
+
+
+.Notification_window>div button {
+    padding: 20px 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2657af;
+    margin-top: 2.5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
